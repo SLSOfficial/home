@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header h1, p {
+    text-shadow: 1px 2px 2px lightgray;
+}
+
+div.image {
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    max-width: 30%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+div.img {
+    display: inline-block;
+    border: 1px solid gray;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+div.img img {
+    position: absolute;
+    top: o;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.logo img {
+    max-width: 100%;
+    height: 400px;
+}
+
+/* div.welcome h1 {
+    font-family: 'Lobster', cursive;
+} */
+
+/* design the header text for the mobile */
+/* @media screen and (max-width: 500px) {
+    header h1 {
+        font-size: 18px;
+        letter-spacing: 3px;
+        font-weight: bolder;
+    }    
+    header h4 {
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: bolder;
+    }
+} */
