@@ -49,20 +49,9 @@ div.logo img {
     height: 400px;
 }
 
-/* div.welcome h1 {
-    font-family: 'Lobster', cursive;
-} */
-
-/* design the header text for the mobile */
-/* @media screen and (max-width: 500px) {
-    header h1 {
-        font-size: 18px;
-        letter-spacing: 3px;
-        font-weight: bolder;
-    }    
-    header h4 {
-        font-size: 12px;
-        letter-spacing: 2px;
-        font-weight: bolder;
-    }
-} */
+/* design for main banner */
+div.banner img {
+    margin-top: 8px;
+    width: 100%;
+    height: auto;
+}
