@@ -52,6 +52,6 @@ div.second_col {
     }
 
     div.second_col {
-        display: none;
+        width: 98.5%;
     }
 }
