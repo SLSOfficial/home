@@ -18,7 +18,7 @@ div.head {
 @media screen and (max-width: 800px) {
     div.head {
       width: 100%;
-      height: 130px;
+      height: 160px;
       background-image: url('image/header.png');
       background-size: 100% 100%;
       border: 1px solid rgb(126, 120, 120);
@@ -28,7 +28,7 @@ div.head {
 @media screen and (max-width: 500px) {
     div.head {
       width: 100%;
-      height: 100px;
+      height: 140px;
       background-image: url('image/header.png');
       background-size: 100% 100%;
       border: 1px solid rgb(126, 120, 120);
