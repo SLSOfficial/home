@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.cont a {
+    text-decoration: none;
+}
+
+div.cont sup {
+    color: white;
+    background-color: red;
+    border-radius: 9px 0 9px 0;
+    padding: 0 3px;
+}

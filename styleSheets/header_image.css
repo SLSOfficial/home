@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: o;
+    padding: 0;
+}
+
+div.head {
+  width: 100%;
+  height: 140px;
+  background-image: url('../image/header_sls.png');
+  background-size: 100% 100%;
+  border: 1px solid rgb(126, 120, 120);
+}
+
+@media screen and (max-width: 800px) {
+    div.head {
+      width: 100%;
+      height: 130px;
+      background-image: url('../image/header_sls.png');
+      background-size: 100% 100%;
+      border: 1px solid rgb(126, 120, 120);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div.head {
+      width: 100%;
+      height: 100px;
+      background-image: url('../image/header_sls.png');
+      background-size: 100% 100%;
+      border: 1px solid rgb(126, 120, 120);
+    }
+}

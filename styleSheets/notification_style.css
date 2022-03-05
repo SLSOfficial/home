@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.ele {
+    width: 75%;
+    margin: 20px auto;
+    background-color: rgb(124, 159, 255);
+    border-radius: 20px 20px 2px 2px;
+}
+.ele h3{
+    padding: 10px;
+    text-align: center;
+    margin: 14px 0;
+    font-size: 18px;
+    color: white;
+}
+div.cont {
+    width: 75%;
+    margin: 20px auto;
+    background-color: rgb(247 250 255);
+    border-radius: 5px;
+}
+.cont ul li {
+    padding: 12px;
+}
+
+#notif_sec {
+    height: 500px;
+    overflow-y: auto;
+}
+div.end_l {
+    width: 75%;
+    height: 10px;
+    margin: auto;
+    background-color: rgb(124, 159, 255);
+    border-radius: 2px 2px 20px 20px;
+}
+@media screen and (max-width: 500px) {
+    div.par_cont, div.ele, div.cont, div.end_l {
+        width: 98%;
+    }
+}

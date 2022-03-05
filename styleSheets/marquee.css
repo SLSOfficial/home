@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  body {
+    background: #1a1a1a;
+    font-family: helvetica;
+  }
+  
+  marquee {
+    background: #e3e7fdfc;
+    margin: 0 auto;
+    display: block;
+    color: #342424;
+  }
+  
+  .ticker-left li {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 30px;
+  }
