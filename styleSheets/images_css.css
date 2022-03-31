@@ -43,7 +43,7 @@ div.c img {
     height: auto;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     .par_col {
         width: 98%;
         margin-bottom: 5px;
