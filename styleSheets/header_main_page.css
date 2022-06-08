@@ -7,6 +7,14 @@ body {
     padding: 0;
 }
 
+div.header_cont {
+    background-color: #85afee;
+}
+header div h1 {
+    color: #1f1da6;
+    text-shadow: 1px 1px 1px #9d9cbd;
+}
+
 div.header_cont, .sub_col {
     display: flex;
     flex-flow: row wrap;
@@ -27,10 +35,10 @@ div.header_cont, .sub_col {
 .sub_ele {
     margin: 22px 2px 0 2px; 
     width: 45%;
-    background-color: rgb(234 234 234 / 93%);
+    background-color: rgb(135 150 222 / 29%);
     text-align: center;
     border-radius: 12px;
-    box-shadow: 1px 1px 2px gray,2px 2px 4px rgb(130, 138, 185);
+    box-shadow: 0px 0px 1px 1px #4c4949, 0px 0px 1px 1px rgb(13 110 253);;
     
 }
 #face {
@@ -39,7 +47,7 @@ div.header_cont, .sub_col {
 }
 #contct a, #notif a, #face a{
     padding: 5px;
-    color: #7c5d5d;
+    color: #000000;
     font-size: 12px;
 }
 
@@ -49,8 +57,8 @@ div.header_cont, .sub_col {
 }
 
 .sub_ele:hover {
-    background-color: rgba(255, 254, 254, 0.93);
-    box-shadow: 1px 1px 2px rgb(100, 100, 100),2px 2px 4px rgb(190, 196, 229);
+    background-color: rgb(108 158 233);
+    box-shadow: 0px 0px 1px 1px #1f0e0e, 0px 0px 1px 1px rgb(13 110 253);;
 }
 
 @media screen and (max-width: 800px) {
