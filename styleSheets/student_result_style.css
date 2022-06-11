@@ -43,7 +43,7 @@ div.c {
     color: blue;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     div.mobile {
         display: block;
         margin-bottom: 5px;
