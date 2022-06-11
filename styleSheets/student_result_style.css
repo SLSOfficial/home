@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+div.mobile {
+    display: none;
+}
+
 div.card {
     border: none;
 }
@@ -37,4 +41,15 @@ div.c {
 
 .txt-blue {
     color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    div.mobile {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    div.laptop {
+        display: none;
+    }
 }
