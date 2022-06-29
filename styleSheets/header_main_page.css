@@ -61,14 +61,14 @@ div.header_cont, .sub_col {
     box-shadow: 0px 0px 1px 1px #1f0e0e, 0px 0px 1px 1px rgb(13 110 253);;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     #contct, #notif, #face{
         width: 100%;
         margin: 5px 0 2px 0;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     div.header_cont {
         display: none;
     }
